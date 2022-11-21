@@ -31,7 +31,7 @@ async function main() {
   const ballotContractAddress = parameters[0];
   const accountAddress = parameters[1];
 
-  console.log("Casting votes");
+  console.log("Getting voting power");
   console.log(`Ballot Contract Address: ${ballotContractAddress}`);
   console.log(`Account Address: ${accountAddress}`);
 
